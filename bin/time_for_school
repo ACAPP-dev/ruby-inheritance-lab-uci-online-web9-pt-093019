@@ -32,7 +32,7 @@ jim.first_name = "Jim"
 jim.last_name = "Why Not"
 p jim
 jim.learn(some_knowledge)
-p jim
+p jim.knowledge
 
 andrew = Student.new
 andrew.first_name = "Andrew"
