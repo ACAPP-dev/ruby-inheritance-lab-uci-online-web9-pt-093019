@@ -33,3 +33,9 @@ jim.last_name = "Why Not"
 p jim
 jim.learn(some_knowledge)
 p jim
+
+andrew = Student.new
+andrew.first_name = "Andrew"
+andrew.last_name = "Capp"
+andrew.learn(some_knowledge)
+puts "Andrew is learning: #{andrew.knowledge.first}."
