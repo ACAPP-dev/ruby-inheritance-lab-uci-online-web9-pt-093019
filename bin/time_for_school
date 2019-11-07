@@ -26,3 +26,8 @@ steve.learn(more_knowledge)
 steve.knowledge.each do |piece_of_knowledge|
   puts "Steve learned: #{piece_of_knowledge} from Avi."
 end
+
+jim = User.new
+jim.first_name = "Jim"
+jim.last_name = "Why Not"
+p jim
