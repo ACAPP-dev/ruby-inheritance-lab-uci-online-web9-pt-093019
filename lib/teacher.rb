@@ -7,5 +7,4 @@ class Teacher < User
   def teach
     KNOWLEDGE.shuffle[0]
   end
-
 end
